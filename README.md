@@ -22,15 +22,19 @@ This page is for downloads only. The source code is not published; Clovus is fre
 ## Requirements
 
 - Windows 10 version 2004 (build 19041) or newer, or Windows 11.
-- A virtual audio device so your chat app can hear Clovus: [VB-Cable](https://vb-audio.com/Cable/) or
-  [Voicemeeter](https://vb-audio.com/Voicemeeter/). Clovus does not install or include one.
+- Nothing else is needed to use the soundboard and the editor: clips play on your speakers or headphones out of the box.
+- **Optional:** to play clips *into a voice chat* (so your friends hear them), you need a virtual audio device that the chat app
+  can use as its microphone, such as [VB-Cable](https://vb-audio.com/Cable/) or [Voicemeeter](https://vb-audio.com/Voicemeeter/).
+  Clovus does not install or include one. If you already route audio some other way (for example a mixer or a second sound card),
+  just pick that device as the chat output; no virtual device is required.
 
-## Getting sound into Discord
+## Getting sound into Discord (optional)
 
 Clovus plays each clip on two outputs: the **Chat output** (what your friends hear) and the **Monitor device** (what you hear).
-Discord listens to one input device, so the chat output has to reach it.
+Discord listens to one input device, so the chat output has to reach it. If you only want to hear clips yourself, leave the
+chat output unset and skip this section.
 
-1. Install VB-Cable.
+1. Install VB-Cable (or use any other virtual or physical route into your chat app).
 2. In Clovus, set *Chat output* to `CABLE Input`.
 3. In Discord, set *Input device* to `CABLE Output`.
 
