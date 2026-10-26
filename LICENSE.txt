@@ -1,0 +1,21 @@
+Clovus end-user licence
+
+Copyright (c) 2026 Gesso64. All rights reserved.
+
+Clovus is free to use. It is not open source: the source code is not published and no rights to it are granted.
+
+You may:
+  - download, install and use Clovus free of charge, for any personal or commercial purpose;
+  - share the unmodified download (the original zip from this page) with other people, free of charge.
+
+You may not, except where the law gives you that right regardless of this licence:
+  - sell Clovus or charge for access to it;
+  - modify it, or share modified copies;
+  - decompile, disassemble or reverse engineer it.
+
+Clovus is provided "as is", without warranty of any kind. The author is not liable for any damage or loss from using it.
+
+The replay buffer can record other people's audio. You are responsible for getting the consent that the law where you live
+requires before you record, keep or share anyone's voice.
+
+Third-party components included in Clovus are licensed separately; see THIRD_PARTY_NOTICES.md.
